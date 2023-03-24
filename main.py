@@ -3,8 +3,7 @@ from gpio_lcd import GpioLcd
 from machine import Pin
 
 
-
-x = 2  # sleep time between measures
+x = 2  # sleep time [s] between measures
 y = 4  # cycles of measure
 # measure time = x*y
 
